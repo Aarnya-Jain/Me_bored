@@ -7,3 +7,7 @@ Added features --
 made the website reponsive for multiple devices unlike the main spotify website 
 
 Techstack Used - HTML , CSS , Vanilla JS
+
+----
+
+[Watch demo video](https://youtu.be/3wiYkVoRPc4)
