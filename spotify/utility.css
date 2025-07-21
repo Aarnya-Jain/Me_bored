@@ -1,0 +1,58 @@
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.margin{
+    margin: 5px;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-black2{
+    background-color: rgb(18, 18, 18);
+}
+
+.roundb{
+    border-radius: 10px;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.pad{
+    padding: 10px;
+}
+
+.rotate-180{
+    transform: rotate(180deg);
+}
+
+.gap{
+    gap: 6px;
+}
+
+@media (max-width:1400px) {
+    .margin{
+    margin: 13px;
+}
+}
