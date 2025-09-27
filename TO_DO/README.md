@@ -12,4 +12,4 @@
 
 ---
 
-Link => [I Task](me-bored.vercel.app)
+Link => [I task](https://vercel.com/aarnya-jains-projects/me-bored)
