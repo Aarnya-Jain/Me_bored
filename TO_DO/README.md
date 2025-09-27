@@ -12,4 +12,4 @@
 
 ---
 
-Link : me-bored.vercel.app
+Link : (Link)[me-bored.vercel.app]
