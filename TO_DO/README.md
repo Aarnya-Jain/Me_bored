@@ -1,4 +1,4 @@
-# I Task - simple todo app in react + vite + tailwind
+# I Task - simple task manager app in react + vite + tailwind
 
 <center>
   <img width="684" height="608" alt="Image" src="https://github.com/user-attachments/assets/a4734bb8-6f12-4b50-a215-0db714069257" />
