@@ -70,12 +70,12 @@ function App() {
     <>
       <div className=''>
         <Navbar />
-        <div className="border-3 border-black mx-1.5 mt-10 p-5 rounded-lg">
+        <div className="border-3 border-black mx-3 sm:mx-30 md:mx-50 xl:mx-70 2xl:mx-100 mt-10 p-5 rounded-lg">
           <div className="head text-4xl font-bold">Your Todos</div>
           <div className="body h-full mt-3">
             <div className="add flex gap-2">
-              <input type="text" onChange={handleChange} value={todo} placeholder='Add todo' className='px-2 border-2 rounded-lg' />
-              <button onClick={handleAdd} className='font-bold border-2 py-3 px-4 rounded-2xl bg-black text-white cursor-pointer'>Add</button>
+              <input type="text" onChange={handleChange} value={todo} placeholder='Add todo' className='px-2 border-2 w-3/4 rounded-lg' />
+              <button onClick={handleAdd} className='font-bold w-1/4 max-w-[101px] py-3 px-4 rounded-2xl bg-black text-white cursor-pointer'>Add</button>
             </div>
             <div className="show flex items-center gap-2 select-none">
               <input type="checkbox" onChange={toggleshow} checked={showfinished} id="showfinished" className='size-5 cursor-pointer mt-4 ' />
