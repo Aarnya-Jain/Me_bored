@@ -89,10 +89,10 @@ function App() {
               {todos
                 .filter(item => showfinished ? true : !item.isCompleted)
                 .map(item => (
-                  <div key={item.tid} className="todo flex justify-between w-max-full">
+                  <div key={item.tid} className="todo flex justify-between">
                     <div className="Task flex gap-2 font-medium select-none items-start min-w-0">
                       <input onChange={handleCheckbox} checked={item.isCompleted} type="checkbox" id={item.tid} className='size-5 cursor-pointer' />
-                      <label htmlFor={item.tid} className={`break-words cursor-pointer ${item.isCompleted ? "line-through" : ""}`}>{item.todo}</label>
+                      <label htmlFor={item.tid} className={`cursor-pointer ${item.isCompleted ? "line-through" : ""}`}>{item.todo}</label>
                     </div>
                     <div className="func flex gap-2 ml-2">
                       <button onClick={(e) => handleEdit(e, item.tid)} className="edit cursor-pointer"><FilePenLine /></button>
