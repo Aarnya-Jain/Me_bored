@@ -90,7 +90,7 @@ function App() {
                 .filter(item => showfinished ? true : !item.isCompleted)
                 .map(item => (
                   <div key={item.tid} className="todo flex justify-between">
-                    <div className="Task flex gap-2 font-medium select-none items-center">
+                    <div className="Task flex gap-2 min-w-0 font-medium select-none items-center">
                       <input onChange={handleCheckbox} checked={item.isCompleted} type="checkbox" id={item.tid} className='size-5 cursor-pointer' />
                       <label htmlFor={item.tid} className={`cursor-pointer ${item.isCompleted ? "line-through" : ""}`}>{item.todo}</label>
                     </div>
